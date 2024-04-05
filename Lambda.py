@@ -5,4 +5,12 @@ def kuadrat( num ):
 print( f"Result Kuadrat : { kuadrat(4) }")
 
 #syntax :
-# output = lambda
+# output = lambda variabel_parameter : expression
+ResultKuadrat = lambda abc : abc ** 2
+print( f"Result Kuadrat lambda: { ResultKuadrat(4) }")
+
+def pangkat ( angka, pangkat ):
+    return angka ** pangkat
+print( f"Result pangkat : { pangkat( 4,3 ) }" )
+
+ResultKuadrat = lambda a, b : a ** a
