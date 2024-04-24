@@ -21,4 +21,4 @@ def batas():
 batas()
 dataAlf = [ "bbb", "cc", "d", "zzzz", "aa"]
 dataAlf.sort()
-print( f"data sorted")
+print( f"data sorted : { dataAlf }")
