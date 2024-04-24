@@ -22,9 +22,10 @@ def batas():
 batas()
 dataAlf = [ "bbb", "cc", "d", "zzzz", "aa"]
 dataAlf.sort()
-print( f"data sorted : { dataAlf }")
+print( f"1. data sorted : { dataAlf }")
 
 def pnjData( data ):
     return len( data )
 
 dataAlf.sort( key = pnjData )
+print(f"2. data sorted : { dataAlf } ")
