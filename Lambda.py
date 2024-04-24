@@ -13,3 +13,12 @@ def pangkat ( angka, pangkat ):
 print( f"Result pangkat : { pangkat( 4,3 ) }" )
 
 ResultKuadrat = lambda a, b : a ** a
+
+print( f"hasil 5 pangkat 2 { ResultKuadrat( 5, 2 ) } ")
+
+def batas():
+    print( "-"*15 )
+batas()
+dataAlf = [ "bbb", "cc", "d", "zzzz", "aa"]
+dataAlf.sort()
+print( f"data sorted")
