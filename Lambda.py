@@ -29,3 +29,7 @@ def pnjData( data ):
 
 dataAlf.sort( key = pnjData )
 print(f"2. data sorted : { dataAlf } ")
+
+dataAlf = [ "bbb", "cc", "d", "zzzz", "aa" ]
+dataAlf.sort( key = lambda data: len(data)  )
+print( f"3, data sorted lambda : { dataAlf } ")
