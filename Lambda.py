@@ -3,7 +3,6 @@
 def kuadrat( num ):
     return num **2
 print( f"Result Kuadrat : { kuadrat(4) }")
-
 #syntax :
 # output = lambda variabel_parameter : expression
 ResultKuadrat = lambda abc : abc ** 2
