@@ -33,3 +33,14 @@ print(f"2. data sorted : { dataAlf } ")
 dataAlf = [ "bbb", "cc", "d", "zzzz", "aa" ]
 dataAlf.sort( key = lambda data: len(data)  )
 print( f"3, data sorted lambda : { dataAlf } ")
+
+batas()
+datas = [ 1, 2, 4, 8, 10, 12, 15, 18, 20, 21 ]
+def kurangDari9 ( data ):
+    return data < 9
+
+datasKurang9 = list( filter( kurangDari9, datas ) )
+print( f"Data Kurang dari 9 = { datasKurang9 }")
+
+lamDatas9 = list( filter( lambda data : data < 9, datas))
+print( f"Data Kurang dari 9 = Data Kurang dari 9 Lambda = {lamDatas9} ")
