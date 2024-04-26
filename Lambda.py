@@ -57,3 +57,5 @@ def pangkatC ( n ):
 
 pangkat2 = pangkatC( 2 )
 print( f"10 pangkat 2 { pangkat2( 10 ) }")
+pangkat5 = pangkatC( 5 )
+print( f"4 pangkat 5 { pangkat5( 4 ) }")
