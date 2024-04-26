@@ -44,3 +44,16 @@ print( f"Data Kurang dari 9 = { datasKurang9 }")
 
 lamDatas9 = list( filter( lambda data : data < 9, datas))
 print( f"Data Kurang dari 9 = Data Kurang dari 9 Lambda = {lamDatas9} ")
+
+batas()
+# currying = Teknik berguna untuk membuat multi argument dan menjadikan fungsi pecahan fungsi lebih banyak 
+def pangkat( num, n ):
+    return num ** n
+print( f"5 pangkat 2 { pangkat( 5, 2 ) }")
+print( f"9 pangkat 2 { pangkat( 9, 2 ) }")
+
+def pangkatC ( n ):
+    return lambda angka : angka ** n
+
+pangkat2 = pangkatC( 2 )
+print( f"10 pangkat 2 { pangkat2( 10 ) }")
