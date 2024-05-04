@@ -10,12 +10,12 @@ ulang = 0
 def mean(*n):
     hasil = sum(*n) / ulang
     return hasil
-def median(*n): # extra point's spaghetti code
-    if (ulang % 2 == 1):
-        hasil = n[round(ulang / 2)]
-    else:
-        hasil = (n[round((ulang / 2) - 0.5)] + n[round((ulang / 2) + 0.5)]) / 2
-    return hasil
+# def median(*n): # extra point's spaghetti code
+#     if (ulang % 2 == 1):
+#         hasil = n[round(ulang / 2)]
+#     else:
+#         hasil = (n[round((ulang / 2) - 0.5)] + n[round((ulang / 2) + 0.5)]) / 2
+#     return hasil
 # def modus(*n):
 #     hasil = 
 #     return hasil
@@ -33,6 +33,6 @@ while y.lower() == "y":
         print(f"Deret Angka : {n}")
         print(f"MEAN : {mean(n)}")
         # Extra point
-        print(f"MEDIAN : {median(n)}")
+        # print(f"MEDIAN : {median(n)}")
         # print(f"MODUS : {modus(n)}")
         break
