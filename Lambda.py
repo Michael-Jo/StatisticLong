@@ -53,9 +53,9 @@ print( f"5 pangkat 2 { pangkat( 5, 2 ) }")
 print( f"9 pangkat 2 { pangkat( 9, 2 ) }")
 
 def pangkatC ( n ):
-    return lambda angka : angka ** n
+    return lambda angka : angka ** n # n dari pangkat2/5
 
-pangkat2 = pangkatC( 2 )
-print( f"10 pangkat 2 { pangkat2( 10 ) }")
+pangkat2 = pangkatC( 2 ) # pangkat 2
+print( f"10 pangkat 2 { pangkat2( 10 ) }") # 10^2 = 100
 pangkat5 = pangkatC( 5 )
 print( f"4 pangkat 5 { pangkat5( 4 ) }")
