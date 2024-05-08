@@ -12,10 +12,11 @@ def mean(*n):
     return hasil
 # def median(*n): # extra point's spaghetti code
 # def median(*n):
+#     s_n = sorted(n)
 #     if (ulang % 2 == 1):
-#         hasil = n[round(ulang / 2)]
+#         hasil = s_n[round(ulang / 2)]
 #     else:
-#         hasil = (n[round((ulang / 2) - 0.5)] + n[round((ulang / 2) + 0.5)]) / 2
+#         hasil = (s_n[round((ulang / 2) - 0.5)] + s_n[round((ulang / 2) + 0.5)]) / 2
 #     return hasil
 # def modus(*n):
 #     hasil = 0
