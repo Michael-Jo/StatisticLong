@@ -18,10 +18,11 @@ def mean(*n):
 #         hasil = (n[round((ulang / 2) - 0.5)] + n[round((ulang / 2) + 0.5)]) / 2
 #     return hasil
 # def modus(*n):
+#     hasil = 0
+#     count = len(*n)
 #     for i in len(n):
-#           temp = n[i]
-#           if temp == n[i]:
-#               modus = temp
+#           if n[i] = max*n:
+#               hasil++
 #     return hasil
 while y.lower() == "y":
     ulang += 1
