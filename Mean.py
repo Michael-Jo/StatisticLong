@@ -19,7 +19,9 @@ def mean(*n):
 #     return hasil
 # def modus(*n):
 #     for i in len(n):
-#           count
+#           temp = n[i]
+#           if temp == n[i]:
+#               modus = temp
 #     return hasil
 while y.lower() == "y":
     ulang += 1
