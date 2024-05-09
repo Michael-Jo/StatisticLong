@@ -11,14 +11,17 @@ def mean(*n):
     hasil = sum(*n) / ulang
     return hasil
 # def median(*n): # extra point's spaghetti code
-# def median(*n):
-#     s_n = sorted(n)
-#     if (ulang % 2 == 1):
-#         hasil = s_n[round(ulang / 2)]
-#     else:
-#         hasil = (s_n[round((ulang / 2) - 0.5)] + s_n[round((ulang / 2) + 0.5)]) / 2
-#     return hasil
-# def modus(*n):
+def median(*n):
+    s_n = sorted(*n)
+    if (ulang % 2 == 1):
+        hasil = s_n[round(ulang / 2) - 1]
+    else:
+        hasil = (s_n[round((ulang / 2) - 1)] + s_n[round((ulang / 2))]) / 2
+    return hasil
+import statistics
+def modus(**n):
+    h_modus = statistics.multimode( n['modus'] )
+    return h_modus
 #     hasil = 0
 #     count = len(*n)
 #     for i in len(n):
@@ -39,6 +42,8 @@ while y.lower() == "y":
         # print(f"Deret Angka : {n}")
         print(f"MEAN : {mean(n)}")
         # Extra point
-        # print(f"MEDIAN : {median(n)}")
+        print(f"MEDIAN : {median(n)}")
         # print(f"MODUS : {modus(n)}")
+        hasil_modus = modus( modus = n )
+        print(f"MODUS : {hasil_modus}")
         break
