@@ -39,7 +39,7 @@ while y.lower() == "y":
         # def mean(*n): # tidak bisa digunakan diluar bagian 'else' ini jika fungsinya disini
         #     hasil = sum(*n) / ulang
         #     return hasil
-        # print(f"Deret Angka : {n}")
+        print(f"Deret Angka : {sorted(n)}")
         print(f"MEAN : {mean(n)}")
         # Extra point
         print(f"MEDIAN : {median(n)}")
